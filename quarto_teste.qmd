@@ -5,17 +5,16 @@ institute: "Departmento de Acadêmico de Matemática"
 format:
   revealjs:
     #incremental: true
-    #logo: images/monash-one-line-black-rgb.png
+    logo: imagem/utfpr_logo.png
     footer: "`emh`"
-    slide-number: true
+    slide-number: false
     multiplex: true
+    theme: [moon, tema.scss]
     show-slide-number: all
     controls: true
     width: 1280
     height: 720
-    header-includes: |
-      <link rel="stylesheet" href="/assets/fontawesome-free-6.1.1-web/css/font-awesome.min.css">
-      <script defer src="/assets/fontawesome-free-6.1.1-web/js/all.min.js"></script>
+    css: [custom.css]
 execute:
   echo: true
 ---
