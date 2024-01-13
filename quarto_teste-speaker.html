@@ -391,7 +391,7 @@
   <div class="reveal">
     <div class="slides">
 
-<section id="title-slide" class="quarto-title-block center">
+<section id="title-slide" data-background-image="imagem/fundo3.png" data-background-opacity="0.75" data-background-size="contain" class="quarto-title-block center">
   <h1 class="title">Primeira Apresentação</h1>
 
 <div class="quarto-title-authors">
@@ -405,6 +405,60 @@ Elizabeth Mie Hashimoto
     </div>
 </div>
 
+</section>
+<section id="lista" class="slide level2">
+<h2>Lista</h2>
+<ul>
+<li>item 1</li>
+<li>item 2</li>
+</ul>
+<div>
+<ul>
+<li class="fragment">Eat spaghetti</li>
+<li class="fragment">Drink wine</li>
+</ul>
+</div>
+</section>
+<section class="slide level2">
+
+<div class="columns">
+<div class="column" style="width:40%;">
+<p>Left column</p>
+</div><div class="column" style="width:60%;">
+<p>Right column</p>
+</div>
+</div>
+</section>
+<section id="slide-with-speaker-notes" class="slide level2">
+<h2>Slide with speaker notes</h2>
+<p>Slide content</p>
+<aside class="notes">
+<p>Speaker notes go here.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="slide-title" class="slide level2">
+<h2>Slide Title</h2>
+<p>Slide content<sup>1</sup></p>
+
+<aside><div>
+<p>Some additional commentary of more peripheral interest.</p>
+</div><ol class="aside-footnotes"><li id="fn1"><p>A foonote</p></li></ol></aside></section>
+<section id="slide-title-1" class="slide level2">
+<h2>Slide Title</h2>
+<p>Slide content</p>
+<div class="footer">
+<p>Custom footer text</p>
+</div>
 </section>
 <section class="slide level2">
 
@@ -429,6 +483,25 @@ Elizabeth Mie Hashimoto
 <section id="subtitulo" class="slide level2">
 <h2>Subtitulo</h2>
 <p>Teste</p>
+</section>
+<section class="slide level2">
+
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2" data-code-line-numbers="|4|6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href=""></a>soma <span class="ot">&lt;-</span> <span class="cf">function</span>(x){</span>
+<span id="cb2-2"><a href=""></a>  <span class="fu">sum</span>(x)</span>
+<span id="cb2-3"><a href=""></a>}</span>
+<span id="cb2-4"><a href=""></a></span>
+<span id="cb2-5"><a href=""></a><span class="fu">soma</span>(<span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>))</span>
+<span id="cb2-6"><a href=""></a></span>
+<span id="cb2-7"><a href=""></a><span class="fu">soma</span>(<span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>))<span class="sc">/</span><span class="dv">3</span></span>
+<span id="cb2-8"><a href=""></a></span>
+<span id="cb2-9"><a href=""></a><span class="fu">library</span>(ggplot2)</span>
+<span id="cb2-10"><a href=""></a></span>
+<span id="cb2-11"><a href=""></a>mtcars <span class="sc">|&gt;</span></span>
+<span id="cb2-12"><a href=""></a><span class="fu">ggplot</span>() <span class="sc">+</span></span>
+<span id="cb2-13"><a href=""></a><span class="fu">aes</span>(<span class="at">x =</span> disp, <span class="at">y =</span> mpg) <span class="sc">+</span></span>
+<span id="cb2-14"><a href=""></a><span class="fu">geom_abline</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 <div class="quarto-auto-generated-content">
 <p><img src="imagem/utfpr_logo.png" class="slide-logo"></p>
 <div class="footer footer-default">
@@ -436,6 +509,7 @@ Elizabeth Mie Hashimoto
 </div>
 </div>
 </section></section>
+
     </div>
   </div>
 

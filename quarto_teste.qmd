@@ -1,5 +1,9 @@
 ---
 title: "Primeira Apresentação"
+title-slide-attributes:
+    data-background-image: imagem/fundo3.png
+    data-background-size: contain
+    data-background-opacity: "0.75"
 author: "Elizabeth Mie Hashimoto"
 institute: "Departmento de Acadêmico de Matemática"
 format:
@@ -9,7 +13,7 @@ format:
     footer: "`emh`"
     slide-number: false
     multiplex: true
-    theme: [moon, tema.scss]
+    theme: [simple, tema.scss]
     show-slide-number: all
     controls: true
     width: 1280
@@ -19,6 +23,53 @@ execute:
   echo: true
 ---
 
+## Lista
+
+- item 1
+- item 2
+
+::: {.incremental}
+- Eat spaghetti
+- Drink wine
+:::
+
+---
+
+:::: {.columns}
+
+::: {.column width="40%"}
+Left column
+:::
+
+::: {.column width="60%"}
+Right column
+:::
+
+::::
+
+## Slide with speaker notes
+
+Slide content
+
+::: {.notes}
+Speaker notes go here.
+:::
+
+## Slide Title
+
+Slide content^[A foonote]
+
+::: aside
+Some additional commentary of more peripheral interest.
+:::
+
+## Slide Title
+
+Slide content
+
+::: footer
+Custom footer text
+:::
 
 ---
 
@@ -41,3 +92,25 @@ mtcars |>
 ## Subtitulo
 
 Teste
+
+---
+
+```{r}
+#| output: false
+#| code-line-numbers: "|4|6"
+
+soma <- function(x){
+  sum(x)
+}
+
+soma(c(1, 2, 3))
+
+soma(c(1, 2, 3))/3
+
+library(ggplot2)
+
+mtcars |>
+ggplot() +
+aes(x = disp, y = mpg) +
+geom_abline()
+```
