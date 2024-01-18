@@ -1,16 +1,16 @@
 ---
 title: "Primeira Apresentação"
 title-slide-attributes:
-    data-background-image: imagem/fundo_brown.png
-    data-background-size: contain
-    data-background-opacity: "0.75"
+    data-background-image: imagem/fundo_luz.png
+    data-background-size: 100%
+    #data-background-opacity: "0.75"
 author: "Elizabeth Mie Hashimoto"
 institute: "Departmento de Acadêmico de Matemática"
 format:
   revealjs:
     #incremental: true
     logo: imagem/utfpr_logo.png
-    footer: "`emh`"
+    #footer: "`emh`"
     slide-number: false
     multiplex: false
     theme: [solarized, tema.scss]
@@ -98,7 +98,7 @@ Teste
 ---
 
 ```{r}
-#| output: false
+#| output: true
 #| code-line-numbers: "|4|6"
 
 soma <- function(x){

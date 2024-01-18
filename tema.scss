@@ -4,6 +4,26 @@ $body-bg: #ffffff;
 $body-color: #191919;
 $link-color: #027eb6;
 
+// headings
+$presentation-heading-font: "Palatino Linotype", "Book Antiqua", Palatino,
+  FreeSerif, serif !default;
+$presentation-heading-color: #383d3d !default;
+
+
+#title-slide .subtitle {
+   text-align: left;
+}
+
+#title-slide .quarto-title-author-name {
+  text-align: left;
+  width: 100%;
+}
+
+#title-slide .quarto-title-affiliation {
+  text-align: left;
+}
+
+
 /*-- scss:rules --*/
 
 .reveal .slide blockquote {
