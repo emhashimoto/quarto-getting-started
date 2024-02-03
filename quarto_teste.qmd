@@ -1,7 +1,9 @@
 ---
-title: "Primeira Apresentação"
+title: |
+  | Primeira
+  | Apresentação
 title-slide-attributes:
-    data-background-image: imagem/fundo_luz.png
+    data-background-image: imagem/fundo_luz_novo.png
     data-background-size: 100%
     #data-background-opacity: "0.75"
 author: "Elizabeth Mie Hashimoto"

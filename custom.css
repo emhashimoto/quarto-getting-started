@@ -1,17 +1,17 @@
-.title {
-  font-size: 50pt;
-  text-align: left;
+.reveal .slide-logo {
+  display: block;
+  position: fixed;
+  bottom: 5px;
+  right: unset !important;
+  top: unset !important;
+  left: 12px;
+  height: 30px !important;
+  width: 30x !important;
+  max-width: unset !important;
+  max-height: unset !important;
 }
 
-.quarto-title-author-name {
-  font-size: 65%;
-  position: absolute;
-  top: 60%;
-  left: 0%;
-}
-
-.quarto-title-affiliation {
-  font-size: 65%;
-  position: absolute;
-  left: 0%;
+#title-slide .title{
+  font-size: 60pt;
+  font: bold;
 }
